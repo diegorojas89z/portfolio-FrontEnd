@@ -29,3 +29,59 @@ div#profile-background img {
 div#info-actions {
     display: flex;
 }
+div#info-action button {
+    margin-right: 8px;
+}
+div#info-contact span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+div#info-contact span a {
+    color:#0a66c2;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+div#info-data {
+    display: flex;
+    justify-content: space-between;
+}
+div#info-data h1 {
+    font-size: 1.8rem;
+    display: inline;
+    font-weight: 500;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+div#info-data ul#info-details{
+    width: 232px;
+    list-style: none;
+    flex-shrink: 0;
+}
+div#info-data ul#info-details li a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+div#info-data ul#info-details li a h2{
+    font-size: 1rem;
+    font-weight: 500;
+    align-self: center;
+    vertical-align: baseline;
+}
+div#info-data ul#info-details li a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border-radius: 30%;
+}
+ul.item-list {
+    list-style: none inside;
+}
+ul.item-list li{
+    display: flex;
+    margin: 10px 0;
+}
+ul.item-list li div.data-container {
+    flex-grow: 1;
+}
