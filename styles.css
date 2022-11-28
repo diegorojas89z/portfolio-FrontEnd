@@ -85,3 +85,7 @@ ul.item-list li{
 ul.item-list li div.data-container {
     flex-grow: 1;
 }
+ul.item-list li div.data-container a {
+    display: flex;
+    color: black;
+}
